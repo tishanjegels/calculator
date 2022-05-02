@@ -1,0 +1,60 @@
+body{
+    font-weight: 500;
+    font-family: Gotham Rounded, sans-serif;
+    background: black
+}
+
+.calcDisplay{
+    font-weight: bold;
+    font-size: 25px;
+    height: 100px;
+    width: 435px;
+    background-color: white;
+    margin: auto;
+    border: 4px solid black;
+    border-radius: 30px;
+    text-align: end;
+    padding-right: 45px;
+}
+
+.calc{
+    font-family: Gotham Rounded, sans-serif;
+    width: 430px;
+    margin: auto;
+    box-shadow: 0px 0px 43px 17px gray;
+}
+
+.numbers{
+    float: left;
+    width: 327px;
+}
+
+.numbers button{
+    font-weight: bold;
+    font-size: 21px;
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+    border: 4px solid black ;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 17px 7px gray;
+}
+
+.operators{
+    float: right;
+    width: 100px;
+}
+
+.operators button{
+    font-weight: bold;
+    font-size: 21px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 3px;
+    border: 4px solid black ;
+    border-radius: 30px;
+    background-color:deepskyblue;
+    box-shadow: 0px 0px 17px 8px gray;
+}

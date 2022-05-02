@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <meta name="author" content="Lyndon">
+    <meta name="description" content="Calculator App">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="" />
+</head>
+
+<body>
+    <header></header>
+    <main>
+
+        <div class="calc">
+            <div class="calcDisplay"></div>
+            <section onclick="myfunction()">
+                <div class="numbers">
+                    <button onclick="calculate()" id="delete">Del</button>
+                    <button onclick="calculate()" id="clear">C</button>
+                    <button onclick="calculate('%')" id="button">%</button>
+                    <button onclick="calculate(1)" id="button">1</button>
+                    <button onclick="calculate(2)" id="button">2</button>
+                    <button onclick="calculate(3)" id="button">3</button>
+                    <button onclick="calculate(4)" id="button">4</button>
+                    <button onclick="calculate(5)" id="button">5</button>
+                    <button onclick="calculate(6)" id="button">6</button>
+                    <button onclick="calculate(7)" id="button">7</button>
+                    <button onclick="calculate(8)" id="button">8</button>
+                    <button onclick="calculate(9)" id="button">9</button>
+                    <button onclick="calculate('()')" id="button">()</button>
+                    <button onclick="calculate(0)" id="button">0</button>
+                    <button onclick="calculate(',')" id="button">,</button>
+                </div>
+            </section>
+            <section onclick="myfunction()">
+                <div class="operators">
+                    <button onclick="calculate('+')" id="button">+</button>
+                    <button onclick="calculate('-')" id="button">-</button>
+                    <button onclick="calculate('/')" id="button">/</button>
+                    <button onclick="calculate('*')" id="button">*</button>
+                    <button onclick="Result()" id="equal">=</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer></footer>
+    <script  src="js\script.js"></script>
+</body>
+
+</html>
